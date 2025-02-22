@@ -1,4 +1,3 @@
-# flask-htop-app
 from flask import Flask
 import os
 import datetime
@@ -31,3 +30,4 @@ def htop():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5001)
+
